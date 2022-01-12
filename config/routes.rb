@@ -1,3 +1,13 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get "/card" => "cards#index"
+  get "/card/:id" => "cards#show"
+  get "/card" => "cards#create"
+  get "/card/:id" => "cards#update"
+
+  get "idea" => "ideas#index"
+  get "idea/:id" => "idea#show"
+
+  get "/users" => "users#create"
+
+  post "/sessions" => "sessions#create"
 end
