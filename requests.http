@@ -1,0 +1,21 @@
+### Creates a New User
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "first_name": "Dev",
+  "last_name": "Ort",
+  "email": "devort@example.com",
+  "phone": "1234567890",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Creates a New Session
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "devort@example.com",
+  "password": "password"
+}
