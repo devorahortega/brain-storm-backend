@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get "idea" => "ideas#index"
   get "idea/:id" => "idea#show"
 
-  get "/users" => "users#create"
+  post "/users" => "users#create"
 
   post "/sessions" => "sessions#create"
 end
