@@ -19,3 +19,18 @@ Content-Type: application/json
   "email": "devort@example.com",
   "password": "password"
 }
+
+### Card Index
+GET http://localhost:3000/cards.json
+Authorization: bearer 
+Content-Type: application/json
+
+### Card Show
+GET http://localhost:3000/cards.json
+Authorization: bearer 
+Content-Type: application/json
+
+{
+  "card_id": 1
+}
+
