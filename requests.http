@@ -34,3 +34,11 @@ Content-Type: application/json
   "card_id": 1
 }
 
+### Create Card
+POST http://localhost:3000/cards.json
+Authorization: bearer 
+Content-Type: application/json
+
+{
+  "card": "This is my card test"
+}
