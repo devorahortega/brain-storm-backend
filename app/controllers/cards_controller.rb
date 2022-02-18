@@ -10,7 +10,7 @@ class CardsController < ApplicationController
   end
 
   def create
-    card = card.new(
+    card = Card.new(
       card: params["card"],
       idea_id: params["idea_id"],
     )
