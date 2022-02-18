@@ -42,3 +42,13 @@ Content-Type: application/json
 {
   "card": "This is my card test"
 }
+
+### Update Card
+PATCH http://localhost:3000/card.json
+Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
+Content-Type: application/json
+
+{
+  "card_id": 1,
+  "card": "Card test"
+}
