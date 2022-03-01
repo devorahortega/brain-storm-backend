@@ -1,0 +1,6 @@
+- make app
+- make models
+- make controllers
+- test controllers
+- make associations
+- install gems
