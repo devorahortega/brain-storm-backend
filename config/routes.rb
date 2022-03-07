@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get "/card" => "cards#index"
-  get "/card/:id" => "cards#show"
-  post "/card" => "cards#create"
-  patch "/card/:id" => "cards#update"
+  get "/cards" => "cards#index"
+  get "/cards/:id" => "cards#show"
+  post "/cards" => "cards#create"
+  patch "/cards/:id" => "cards#update"
 
-  get "idea" => "ideas#index"
-  get "idea/:id" => "idea#show"
+  get "ideas" => "ideas#index"
+  get "ideas/:id" => "idea#show"
 
   post "/users" => "users#create"
 

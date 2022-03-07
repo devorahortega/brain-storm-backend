@@ -21,12 +21,12 @@ Content-Type: application/json
 }
 
 ### Card Index
-GET http://localhost:3000/card.json
+GET http://localhost:3000/cards.json
 Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
 Content-Type: application/json
 
 ### Card Show
-GET http://localhost:3000/card.json
+GET http://localhost:3000/cards.json
 Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
 Content-Type: application/json
 
@@ -35,7 +35,7 @@ Content-Type: application/json
 }
 
 ### Create Card
-POST http://localhost:3000/card.json
+POST http://localhost:3000/cards.json
 Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
 Content-Type: application/json
 
@@ -44,7 +44,7 @@ Content-Type: application/json
 }
 
 ### Update Card
-PATCH http://localhost:3000/card.json
+PATCH http://localhost:3000/cards.json
 Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
 Content-Type: application/json
 
