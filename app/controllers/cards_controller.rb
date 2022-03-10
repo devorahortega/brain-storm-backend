@@ -1,5 +1,5 @@
 class CardsController < ApplicationController
-  before_action :authenticate_user, except: [:index, :show]
+  # before_action :authenticate_user, except: [:index, :show]
   def index
     cards = Card.all
     render json: cards
