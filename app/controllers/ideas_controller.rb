@@ -2,7 +2,7 @@ class IdeasController < ApplicationController
   # before_action :authenticate_user, except: [:index, :show]
 
   def index
-    prompts = Idea.all
+    ideas = Idea.all
     render json: ideas
   end
 
@@ -37,7 +37,7 @@ class IdeasController < ApplicationController
 
   def destroy
     idea_id = params["id"]
-    idea = idea.find_by(id: idea_id)
+    idea = Idea.find_by(id: idea_id)
 
     idea.destroy
     render json: { message: "This idea has been destroyed" }
