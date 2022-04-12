@@ -3,12 +3,12 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "first_name": "Joe",
+  "first_name": "Ash",
   "last_name": "Green",
-  "email": "joegre@example.com",
+  "email": "ashgre@example.com",
   "phone": "1235567890",
-  "password": "password",
-  "password_confirmation": "password"
+  "password": "password1",
+  "password_confirmation": "password1"
 }
 
 ### Creates a New Session
@@ -36,8 +36,6 @@ Content-Type: application/json
 
 ### Create Card
 POST http://localhost:3000/cards.json
-Authorization: bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDUyNDE4NjV9.jewynWzBD7Zhjn0GopyvoNGtASH6lo1p_Og0TioMmqw
-Content-Type: application/json
 
 {
   "card": "This is my card test"

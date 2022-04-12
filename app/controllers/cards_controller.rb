@@ -18,7 +18,7 @@ class CardsController < ApplicationController
     if card.save
       render json: card
     else
-      render json: { errors: card.error.full_messages }, status: 422
+      render json: { errors: card.errors.full_messages }, status: 422
     end
   end
 
