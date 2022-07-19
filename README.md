@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+BRAINSTORM BACKEND
 
-Things you may want to cover:
+This is the backend database of my BRAINstorm app, which stores cards, ideas and users and connects the different models to link them together so they can be displayed in the frontend. 
 
-* Ruby version
 
-* System dependencies
+Technologies used in the creation of this database:
 
-* Configuration
+Ruby version
 
-* Database creation
+System dependencies
 
-* Database initialization
+Configuration
 
-* How to run the test suite
+Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+Database initialization
 
-* Deployment instructions
+How to run the test suite
 
-* ...
+Services (job queues, cache servers, search engines, etc.)
+
+Deployment instructions
+
+
+
+Any questions? Reach out to me at:
+
+LinkedIn at https://www.linkedin.com/in/devorahortega/
