@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: brain_storm_backend_production
-  username: brain_storm_backend
-  password: <%= ENV['BRAIN_STORM_BACKEND_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
